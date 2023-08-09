@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/1fd0f84c31.js" crossorigin="anonymous"></script>
     <link type="image/png" sizes="16x16" rel="icon" href="favicon.png">
     <title>Home</title>
@@ -14,11 +15,11 @@
 <body>
     <header id="header">
         <div class="mobilemenu">
-                <a class="mobileicon" href="#" onclick="menuac">
+                <a id="openmenu" class="mobileicon" href="javascript:void(0)" onclick="menuac()">
                     <img class="mobileimg" src="menu2.png" alt="menu">
                 </a>
             </div>
-        <nav class="container nav">
+        <nav id="burger" class="container nav">
             <a href="#"> HOME </a>
             <a href="#"> ABOUT </a>
             <a href="#"> CONTACT </a>
